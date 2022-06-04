@@ -1,0 +1,8 @@
+{
+  "name": "cjson-core",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "rimraf ./dist && rollup -c",
+    "watch": "rimraf ./dist && rollup -c -w"
+  }
+}
